@@ -1,0 +1,866 @@
+html{
+    background-color:#181820;
+    width: 1920px;
+    height: 1080px;
+    font-family: 'Roboto';
+    font-style: normal;
+}
+.left{
+    float: left;
+    width: 400px;height: 1080px;
+    left: 0px;
+    top: 0px;
+    background-color: #1D1D24;
+    box-sizing: border-box;
+    position: absolute;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+    border-right: 1px solid rgba(255, 255, 255, 0.05);
+    box-sizing: border-box;
+}
+.left .sidebar .logofb{
+    position: absolute;
+    width: 262.93px;
+    height: 40px;
+    left: 18.53px;
+}
+.left .sidebar .logofb img{
+    position: absolute;
+    width: 55px;
+    height: 55px;
+    left: 0px;
+    top: 12px;
+}
+.left .sidebar .logofb input{
+    position: absolute;
+    width: 280px;
+    height: 50px;
+    left: 80px;
+    top: 15px;
+    background: rgba(255, 255, 255, 0.05);
+    color: white;
+    border-radius: 15px;
+    text-decoration-color: white;
+    text-indent: 20px;
+}
+.sidebar img{
+    width: 40px;
+    height: 40px;
+}
+.sidebar .menu2 .s1{
+    display: flex;
+    position: absolute;
+    top:95px;
+    left: 18.53px;
+    color:white;
+    width: 100%;
+}
+.sidebar .menu2 .s2{
+    display: flex;
+    position: absolute;
+    top: 180px;
+    left: 30px;
+    color:white;
+}
+.sidebar .menu2 .s3{
+    display: flex;
+    position: absolute;
+    top: 250px;
+    left: 30px;
+    color:white;
+}
+.sidebar .menu2 .s4{
+    display: flex;
+    position: absolute;
+    top: 320px;
+    left: 30px;
+    color:white;
+    width: 100%;
+}
+.sidebar .menu2 .s5{
+    display: flex;
+    position: absolute;
+    top: 390px;
+    left: 30px;
+    color:white;
+}
+.sidebar .menu2 .s6{
+    display: flex;
+    position: absolute;
+    top: 460px;
+    left: 30px;
+    color:white;
+}
+.sidebar .menu2 .s7{
+    display: flex;
+    position: absolute;
+    top: 530px;
+    left: 30px;
+    color:white;
+    width: 100%;
+}
+.sidebar .menu2 .s1 img{
+    width: 55px;
+    height: 55px;
+    position: absolute;
+    padding: 8px;
+    padding-left: 10px;
+    padding-right: 285px;
+}
+.sidebar .menu2 h1{
+    position: absolute;
+    margin-top: 1.3rem;
+    margin-left:5rem;
+    font-size: 20px;
+    font-family: 'Roboto';
+}
+h2{
+    position: absolute;
+    margin-top:0.4rem;
+    left: 4rem;
+    font-size: 20px;
+    font-family: 'Roboto';
+    font-weight: 500;
+}
+.sidebar .menu2 .s2 img{
+    height: 35px;
+    width: 35px;
+    position: absolute;
+    top: -15px;
+    left: -10px;
+    padding: 18px;
+    padding-left: 10px;
+    padding-right: 300px;
+}
+.sidebar .menu2 .s3 img{
+    height: 35px;
+    width: 35px;
+    position: absolute;
+    top: -15px;
+    left: -10px;
+    padding: 18px;
+    padding-left: 10px;
+    padding-right: 300px;
+}
+.sidebar .menu2 .s4 img{
+    height: 35px;
+    width: 35px;
+    position: absolute;
+    top: -15px;
+    left: -10px;
+    padding: 18px;
+    padding-left: 10px;
+    padding-right: 300px;
+}
+.sidebar .menu2 .s5 img{
+    height: 35px;
+    width: 35px;
+    position: absolute;
+    top: -15px;
+    left: -10px;
+    padding: 18px;
+    padding-left: 10px;
+    padding-right: 300px;
+}
+.sidebar .menu2 .s6 img{
+    height: 35px;
+    width: 35px;
+    position: absolute;
+    top: -15px;
+    left: -10px;
+    padding: 18px;
+    padding-left: 10px;
+    padding-right: 300px;
+}
+.sidebar .menu2 .s7 img{
+    height: 35px;
+    width: 35px;
+    position: absolute;
+    top: -15px;
+    left: -10px;
+    padding: 18px;
+    padding-left: 10px;
+    padding-right: 300px;
+}
+.sidebar .menu2 hr{
+    position: absolute;
+    top: 590px;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+}
+.sidebar .menu2 img:hover{
+    background-color:  rgb(27, 27, 27);
+    border-radius: 20px;
+}
+/*Phan duoi ben trai*/
+h3{
+    position: absolute;
+    top: 610px;
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 18px;
+    left: 20px;
+    font-weight: 600;
+}
+.sidebar .menu2 .s8 img{
+    height: 35px;
+    width: 35px;
+    position: absolute;
+    top: -15px;
+    left: -10px;
+    padding: 18px;
+    padding-left: 10px;
+    padding-right: 300px;
+}
+.sidebar .menu2 .s9 img{
+    height: 35px;
+    width: 35px;
+    position: absolute;
+    top: -15px;
+    left: -10px;
+    padding: 18px;
+    padding-left: 10px;
+    padding-right: 300px;
+}
+.sidebar .menu2 .s10 img{
+    height: 35px;
+    width: 35px;
+    position: absolute;
+    top: -15px;
+    left: -10px;
+    padding: 18px;
+    padding-left: 10px;
+    padding-right: 300px;
+}
+.sidebar .menu2 .s8{
+    display: flex;
+    position: absolute;
+    top: 660px;
+    left: 30px;
+    color:white;
+    width: 100%;
+}
+.sidebar .menu2 .s9{
+    display: flex;
+    position: absolute;
+    top: 730px;
+    left: 30px;
+    color:white;
+    width: 100%;
+}
+.sidebar .menu2 .s10{
+    display: flex;
+    position: absolute;
+    top: 800px;
+    left: 30px;
+    color:white;
+    width: 100%;
+}
+.sidebar .menu2 p{
+    position: absolute;
+    top:95%;
+    left: 20px;
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 15px;
+}
+/*Phan icon giua*/
+.icon-center{
+    display: flex;
+    float: left;
+    width: 1520px; height: 80px;
+    text-align: right;
+    background: rgba(255, 255, 255, 0.051);
+    margin-left:400px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+.icon-center img{
+    width: 35px;
+    height: 35px;
+    color:white;
+    text-align: center;
+    padding: 20px;
+    padding-left: 60px;padding-right: 60px;
+    margin-top:2px;
+    border-radius:20px ;
+}
+.icon-center .home{
+    margin-left: 100px;
+}
+.icon-center img:hover{
+    background-color: rgb(27, 27, 27);
+}
+.icon-center hr{
+    position: absolute;
+    width: 100px;
+    height: 2px;
+    background: #2374E1;
+    top: 78px;
+    left:525px;
+}
+/*Phan icon phai*/
+.icon-right{
+    position: absolute;
+    display: flex;
+    float: left;
+    text-align: left;
+    left: 1590px;
+}
+.icon-right img{
+    width: 55px;
+    height: 55px;
+    text-align: center;
+    margin-left: 10px;margin-right: 10px;
+    margin-top:14px;
+    border-radius: 100%;
+}
+.icon-right img:hover{
+    background-color: rgb(27, 27, 27);
+}
+/*Phan Stories-Reels*/
+.Stories{
+    position: absolute;
+    top:120px;
+    left:500px;
+    width:800px;
+    height: 350px;
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid rgba(255, 255, 255, 0.07);
+    border-radius: 5px; 
+}
+.Stories .icon{
+    display: flex;
+    position: absolute;
+    top: 2px;
+    color:white;
+}
+.Stories .CS hr{
+    position: absolute;
+    top: 190px;
+    left: 6px;
+    width: 180px;
+    height: 60px;
+    background: rgba(24, 24, 32, 0.9);
+    border-radius: 0px 0px 10px 10px;
+}
+.Stories .CS .iconcr{
+    position: absolute;
+    top: 166px;
+    left: 65px;
+}
+.Stories .CS .iconcr img{
+    width: 50px;
+    height: 50px;
+    padding: 2px;
+}
+.Stories .CS .iconcr:hover{
+    background-color: rgb(27, 27, 27);
+    border-radius: 100%;
+}
+.Stories .CS img:hover{
+    background-color: rgb(27, 27, 27);
+    border-radius: 20px;
+}
+.Stories .icon .s11{
+    display: flex;
+    width: 35px;
+    height: 35px;
+    color:white;
+    text-align: center;
+    padding: 20px;
+    padding-left: 180px;padding-right: 180px;
+    border-radius:20px ;
+}
+.Stories .icon .s12{
+    display: flex;
+    width: 35px;
+    height: 35px;
+    color:white;
+    text-align: center;
+    padding: 20px;
+    padding-left: 180px;padding-right: 180px;
+    border-radius:20px ;
+}
+.Stories .icon img{
+    position: absolute;
+    margin-left: -40px;
+    width: 35px;
+    height: 35px;
+}
+.Stories .icon .s11 h2{
+    position: absolute;
+    left:185px;
+    top: 20px;
+}
+.Stories .icon .s12 h2{
+    position: absolute;
+    left:580px;
+    top: 20px;
+}
+.Stories .icon .s11:hover{
+    background-color: rgb(27, 27, 27);
+}
+.Stories .icon .s12:hover{
+    background-color: rgb(27, 27, 27);
+}
+.Stories hr{
+    position: absolute;
+    top: 80px;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+}
+.Stories .CS{
+    display: flex;
+    position: absolute;
+    top: 90px;
+    left: 20px;
+}
+.Stories .CS .s26 img{
+    width: 180px;
+    height: 250px;
+    padding-right: 7px;
+    padding-left: 7px;
+    border-radius: 20px;
+}
+.Stories .CS .s27 img{
+    width: 180px;
+    height: 250px;
+    padding-right: 7px;
+    padding-left: 7px;
+    border-radius: 20px;
+}
+.Stories .CS .s28 img{
+    width: 180px;
+    height: 250px;
+    padding-right: 7px;
+    padding-left: 7px;
+    border-radius: 20px;
+}
+.Stories .CS .s29 img{
+    width: 160px;
+    height: 250px;
+    padding-right: 7px;
+    padding-left: 7px;
+    border-top-left-radius:20px;
+    border-bottom-left-radius:20px;
+}
+.Stories .CS h4{
+    position: absolute;
+    color: white;
+    top: 220px;
+    left: 52px;
+}
+.Stories .CS .s27 h4{
+    position: absolute;
+    color: white;
+    top: 220px;
+    left: 260px;
+}
+.Stories .CS .s28 h4{
+    position: absolute;
+    color: white;
+    top: 220px;
+    left: 420px;
+}
+.Stories .CS .s29 h4{
+    position: absolute;
+    color: white;
+    top: 220px;
+    left: 610px;
+}
+.Stories .logo3 img{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+}
+.Stories .logo3 .lg1 img{
+    position: absolute;
+    top:100px;
+    left:240px;
+    border: 2px solid rgba(24, 24, 32, 0.8);
+    border-radius: 100%;
+}
+.Stories .logo3 .lg2 img{
+    position: absolute;
+    top:100px;
+    left:430px;
+    border-radius: 100%;
+    border: 2px solid rgba(24, 24, 32, 0.8);
+}
+.Stories .logo3 .lg3 img{
+    position: absolute;
+    top:100px;
+    left:620px;
+    border-radius: 100%;
+    border: 2px solid rgba(24, 24, 32, 0.8);
+}
+.Stories .s11 hr{
+    position: absolute;
+    background: #2374E1;
+    width: 170px;
+    height: 3px;
+    top: 75px;
+    left: 100px;
+}
+
+/* Phần tạo bài viết*/
+.tbv{
+    position: absolute;
+    width: 800px;
+    height: 130px;
+    top:520px;
+    left:500px;
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid rgba(255, 255, 255, 0.07);
+    border-radius: 5px;
+}
+.tbv .logo1{
+    position: absolute;
+    top: 10px;
+    left: 20px;
+}
+.tbv .logo1 img{
+    width: 55px;
+    height: 55px;
+    border-radius: 100%;
+}
+.tbv .logo1 input{
+    position: absolute;
+    width: 680px;
+    height: 50px;
+    left: 80px;
+    background: rgba(255, 255, 255, 0.05);
+    color: white;
+    border-radius: 15px;
+    text-decoration-color: white;
+    text-indent: 20px;
+}
+.tbv hr{
+    position: absolute;
+    top: 75px;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+}
+.tbv .icon1{
+    position: absolute;
+    display: flex;
+    top: 80px;
+    left: 20px;
+    right: 20px;
+}
+.tbv .icon1 .s13{
+    display: flex;
+    color:white;
+    text-align: center;
+    padding: 18px;
+    padding-left: 120px;padding-right: 120px;
+    border-radius:20px ;
+    width: 10px;height: 10px;
+}
+.tbv .icon1 .s13 img{   
+    position: absolute;
+    top: 9px;
+    margin-left: -40px;
+    width: 23px;height: 23px;
+}
+.tbv .icon1 .s13 h4{
+    top: 14px;
+    color: white;
+    font-size: 12px;
+    position: absolute;
+   font-weight: 500;
+}
+.tbv .icon1 .s13:hover{
+    background-color: rgb(27, 27, 27);
+}
+/*Phần News*/
+.news{
+    position: absolute;
+    width: 800px;height: 328px;
+    top:700px;
+    left: 500px;
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid rgba(255, 255, 255, 0.07);
+    border-radius: 5px;
+}
+.news .logoMU{
+    width: 100%;;
+    display: flex;
+    position: absolute;
+    color: white;
+}
+.news .logoMU .lgMU img{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width:55px;
+    height: 55px;
+    border-radius: 100%;
+    border: 3px solid #2374E1;
+}
+.news .logoMU h4{
+    position: absolute;
+    top:30px;
+    left: 90px;
+    font-size: 14px;
+    font-weight: 500;
+}
+.news .logoMU p{
+    position: absolute;
+    top:50px;
+    left:90px;
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.6);
+}
+.news .logoMU .Union img{
+    position: absolute;
+    top: 51px;
+    left: 117px;
+    width: 12px;
+    height: 12px;
+}
+.news .logoMU h5{
+    position: absolute;
+    top:90px;
+    left: 20px;
+    font-size: 14px;
+    font-weight: 400;
+}
+.news .image{
+    display: flex;
+    position: absolute;
+    top:130px;
+}
+.news .image .s17 img{
+    position: absolute;
+    width: 400px;height: 248px;
+    border-top: 1px solid rgba(255, 255, 255, 0.05);
+}
+.news .image .s18 img{
+    position: absolute;
+    width: 400px;height: 248px;
+    left: 400px;
+    border-top: 1px solid rgba(255, 255, 255, 0.05);
+}
+/*Phần pages and profiles*/
+.pp{
+    position: absolute;
+    top:120px;
+    left: 1450px;
+    width: 420px;
+    height: 140px;
+    background: rgba(255, 255, 255, 0.051);
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    border-radius: 5px;
+}
+.pp h3{
+    position: absolute;
+    top:20px;
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 18px;
+    left: 20px;
+    font-weight: 600;
+}
+.pp .logo2{
+    position: absolute;
+    display: flex;
+    top:60px;
+    left: 20px;
+    width: 100%;
+}
+.pp .logo2 img{
+    position: absolute;
+    width: 55px;
+    height: 55px;
+    border-radius: 100%;
+}
+.pp .logo2 h6{
+    position: absolute;
+    top:10px;
+    left: 80px;
+    color: white;
+    font-size:18px;
+    font-weight: 600;
+}
+.pp .logo2 p{
+    position: absolute;
+    top:38px;
+    left:80px;
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.6);
+}
+.pp .icon2{
+    position: absolute;
+    top: 60px;
+    left: 330px;
+}
+.pp .icon2 img{
+    width: 55px;
+    height: 55px;
+}
+.pp span{
+    position: absolute;
+    border-radius: 50%;
+    color: white;
+    background-color: red;
+    width: 1rem;
+    height: 1rem;
+    font-size: 12px;
+    text-align: center;
+    top: 40px;
+    left: 40px;
+}
+/*Birthdays*/
+.birthdays{
+    position: absolute;
+    top:310px;
+    left: 1450px;
+    width: 420px;
+    height: 140px;
+    background: rgba(255, 255, 255, 0.051);
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    border-radius: 5px;    
+}
+.birthdays h3{
+    position: absolute;
+    top: 20px;
+}
+.birthdays .icon3{
+    display: flex;
+    position: absolute;
+    top: 60px;
+    left: 20px;
+    width: 100%;
+}
+.birthdays .icon3 img{
+    width: 40px;
+    height: 40px;
+}
+.birthdays .icon3 h6{
+    position: absolute;
+    top: 2px;
+    left: 60px;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+}
+/* Phần Chat */
+.chat{
+    position: absolute;
+    top:500px;
+    left: 1450px;
+    width: 420px;
+    height: 578px;
+    background: rgba(255, 255, 255, 0.051);
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    border-radius: 5px;    
+}
+.chat .icon4{
+    display: flex;
+}
+.chat h3{
+    position: absolute;
+    top: 20px;
+}
+.chat .icon4 .icon41{
+    display: flex;
+    position: absolute;
+    top:10px;
+    left: 280px;
+}
+.chat .icon4 .icon41 img{
+    width: 20px;
+    height: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding: 10px;
+}
+.chat .icon4 .icon41 img:hover{
+    background-color: rgb(27, 27, 27);
+    border-radius: 100%;
+}
+.chat .logo4{
+    position: absolute;
+    top: 70px;
+    left: 20px;
+    width: 100%;
+}
+.chat .logo4 .s19{
+    display: flex;
+    width: 100%;
+    position: absolute;
+}
+.chat .logo4 .s20{
+    display: flex;
+    position: absolute;
+    top: 70px;
+    width: 100%;
+}
+.chat .logo4 .s21{
+    display: flex;
+    position: absolute;
+    top: 145px;
+    width: 100%;
+}
+.chat .logo4 .s22{
+    display: flex;
+    position: absolute;
+    top: 220px;
+    width: 100%;
+}
+.chat .logo4 .s23{
+    display: flex;
+    position: absolute;
+    top: 295px;
+    width: 100%;
+}
+.chat .logo4 .s24{
+    display: flex;
+    position: absolute;
+    top: 370px;
+    width: 100%;
+}
+.chat .logo4 .s25{
+    display: flex;
+    position: absolute;
+    top: 445px;
+    width: 100%;
+}
+.chat .logo4 .s26{
+    display: flex;
+    position: absolute;
+    top: 520px;
+    width: 100%;
+}
+.chat .logo4 img{
+    width: 55px;
+    height: 55px;
+    border-radius: 100%;
+}
+.chat .logo4 h6{
+    position: absolute;
+    top: 15px;
+    left: 70px;
+    font-size: 16px;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.85);    
+}
+
+.ghichu{
+    position: absolute;
+    top: 980px;
+    left:1830px;
+}
+.ghichu img{
+    width: 65px;
+    height: 65px;
+}
+.ghichu :hover{
+    background-color:rgb(27, 27, 27);
+    border-radius: 100%;
+}
+.logo4 span{
+    position: absolute;
+    background-color: #25B74D;;
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+    border: 1px solid #1F1F27;
+    top:40px;
+    left: 40px;
+}
